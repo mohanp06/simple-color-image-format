@@ -111,12 +111,12 @@ if __name__ == '__main__':
 ```
 ## 3. requirements
 
-python ≥ 3.8
-pillow (pip install pillow)
+- python ≥ 3.8
+- pillow (pip install pillow)
 
 ## 4. build windows exe
-pip install pyinstaller
-pyinstaller --onefile scif_tools.py
-
-output will be in dist/scif_tools.exe.
+- pip install pyinstaller
+- pyinstaller --onefile scif_tools.py
+- 
+- output will be in dist/scif_tools.exe.
 ---
