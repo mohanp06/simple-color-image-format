@@ -117,6 +117,6 @@ if __name__ == '__main__':
 ## 4. build windows exe
 - pip install pyinstaller
 - pyinstaller --onefile scif_tools.py
-- 
 - output will be in dist/scif_tools.exe.
+
 ---
