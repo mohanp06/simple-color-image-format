@@ -205,17 +205,17 @@ if __name__ == '__main__':
             save_solid(out, int(w), int(h), int(r), int(g), int(b))
             print('saved', out)
 
-        elif cmd == 'save_vgrad' and len(args) == 11:
+        elif cmd == 'save_vgrad' and len(args) == 10:
             _, out, w, h, r1, g1, b1, r2, g2, b2 = args
             save_vertical_gradient(out, int(w), int(h), *map(int, (r1, g1, b1, r2, g2, b2)))
             print('saved', out)
 
-        elif cmd == 'save_hgrad' and len(args) == 11:
+        elif cmd == 'save_hgrad' and len(args) == 10:
             _, out, w, h, r1, g1, b1, r2, g2, b2 = args
             save_horizontal_gradient(out, int(w), int(h), *map(int, (r1, g1, b1, r2, g2, b2)))
             print('saved', out)
 
-        elif cmd == 'save_checker' and len(args) == 11:
+        elif cmd == 'save_checker' and len(args) == 10:
             _, out, w, h, r1, g1, b1, r2, g2, b2 = args
             save_checkerboard(out, int(w), int(h), *map(int, (r1, g1, b1, r2, g2, b2)))
             print('saved', out)
