@@ -1,6 +1,6 @@
 # SCIF tools and reference implementation
 
-this document provides a simple python reference implementation and usage guide.
+This document provides a simple python reference implementation and usage guide.
 
 ## 1. files
 - `scif_tools.py` — python tool for encoding/decoding/viewing scif files  
@@ -108,15 +108,15 @@ def main():
 if __name__ == '__main__':
     main()
 
+```
 ## 3. requirements
 
 python ≥ 3.8
 pillow (pip install pillow)
 
-##4. build windows exe
+## 4. build windows exe
 pip install pyinstaller
 pyinstaller --onefile scif_tools.py
 
 output will be in dist/scif_tools.exe.
-
 ---
