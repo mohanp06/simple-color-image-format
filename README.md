@@ -5,6 +5,7 @@
 
 It can also act as an abstract framework to create other fixed image/audio/text or other file formats out of it, useful for specific cases as defined by the developer of those formats.
 
+Current status: SCIF is currently an informal hobby project. No attempt has been made to register or standardize it as an official format. Implementation details are open to interpretation and left to developers who wish to use it or build new formats based on this framework.
 ---
 
 ## features
@@ -43,6 +44,7 @@ a 100×50 solid red image:
 00 64 00 32 01 FF 00 00
 
 │width│ │height│ │mode│ │R G B│
+
 
 
 
