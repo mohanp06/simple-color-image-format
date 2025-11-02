@@ -2,7 +2,9 @@
 
 ## overview
 **SCIF** (Simple Color Image Format) is a minimal binary image format for ultra-lightweight color storage.  
-it’s built for simplicity, tiny size, and instant decoding — perfect for embedded systems, procedural art, and learning how image formats work. It can also act as an abstract framework to create other fixed image/audio/text or other file formats out of it, useful for specific cases as defined by the developer of those formats.
+it’s built for simplicity, tiny size, and instant decoding — perfect for embedded systems, procedural art, and learning how image formats work. 
+
+It can also act as an abstract framework to create other fixed image/audio/text or other file formats out of it, useful for specific cases as defined by the developer of those formats.
 
 ---
 
@@ -42,3 +44,4 @@ a 100×50 solid red image:
 00 64 00 32 01 FF 00 00
 
 │width│ │height│ │mode│ │R G B│
+
